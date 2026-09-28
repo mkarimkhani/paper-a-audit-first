@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this audit artifact or framework, please cite it as below."
+title: "Structure-Aware Topological Gating (SATG)"
+version: 1.0.0
+date-released: 2026-09-28
+repository-code: "https://github.com/mkarimkhani/paper-a-audit-first"
+authors:
+  - family-names: "Karimkhani"
+    given-names: "Mohsen"
+abstract: >-
+  Audit-first implementation and verification artifacts for Structure-Aware
+  Topological Gating (SATG) applied to multi-cohort mammographic classification.
+keywords:
+  - topological data analysis
+  - persistent homology
+  - mammography
+  - reproducible research
+  - deep learning

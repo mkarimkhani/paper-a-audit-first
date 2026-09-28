@@ -30,3 +30,24 @@ The **SATG** framework integrates multi-scale persistent homology features with 
 - `ripser==0.6.15`
 - `persim==0.3.8`
 - `gudhi==3.13.0`
+## Verification & Citation
+
+### Running Audit Verification
+To verify the structural integrity of the local gate manifests, run:
+
+```bash
+python run_audit_verification.py
+```
+
+### Citation
+If you find this work or the audit framework helpful, please cite this repository:
+
+```bibtex
+@software{satg_audit_first,
+  author = {Karimkhani, Mohsen},
+  title = {Structure-Aware Topological Gating (SATG): Audit-First Artifacts},
+  year = {2026},
+  url = {https://github.com/mkarimkhani/paper-a-audit-first},
+  version = {1.0.0}
+}
+```
