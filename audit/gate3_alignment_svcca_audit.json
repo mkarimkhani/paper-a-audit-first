@@ -1,0 +1,31 @@
+{
+  "gate": "Gate-3",
+  "gate_name": "Topological Subspace Regularization & SVCCA Alignment Audit",
+  "status": "PASSED",
+  "evaluated_crops": 255,
+  "unique_lesions": 138,
+  "spiculated_lesions": 38,
+  "active_tda_dimensions": 11,
+  "filtered_features": [
+    "h0_count (constant zero-variance)"
+  ],
+  "regularization_metrics": {
+    "ledoit_wolf_shrinkage": 0.0569,
+    "condition_number": 102.9839
+  },
+  "top_feature_correlations": {
+    "h1_max_lifetime": {
+      "r": 0.2785,
+      "p_value": 0.000942
+    },
+    "h1_std_lifetime": {
+      "r": 0.2515,
+      "p_value": 0.002924
+    },
+    "h1_entropy": {
+      "r": -0.2494,
+      "p_value": 0.003176
+    }
+  },
+  "canonical_spectrum_ref": "image-149.png"
+}

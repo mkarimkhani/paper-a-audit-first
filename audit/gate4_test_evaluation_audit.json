@@ -1,0 +1,15 @@
+{
+  "gate": "Gate-4",
+  "gate_name": "Independent Test Cohort Evaluation & Generalization Audit",
+  "status": "PASSED",
+  "dataset": "CBIS-DDSM Test Manifest",
+  "sample_count": 378,
+  "unique_patients": 201,
+  "unique_lesions": 214,
+  "evaluation_protocol": {
+    "composite_key": "(patient_id, abnormality_id)",
+    "leakage_verified": 0.0,
+    "tda_active_dimensions": 11,
+    "inference_mode": "Deterministic (Eval)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "gate": "Gate-1",
+  "gate_name": "Patient & Lesion Manifest Partitioning Audit",
+  "status": "PASSED",
+  "composite_key": "(patient_id, abnormality_id)",
+  "train_cohort": {
+    "patients": 691,
+    "lesions": 748,
+    "rows": 1318
+  },
+  "test_cohort": {
+    "patients": 201,
+    "lesions": 214,
+    "rows": 378
+  },
+  "leakage_statistics": {
+    "patient_overlap": 0,
+    "lesion_overlap": 0,
+    "leakage_rate": 0.0
+  }
+}

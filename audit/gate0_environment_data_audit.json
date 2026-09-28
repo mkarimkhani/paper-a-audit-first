@@ -1,0 +1,24 @@
+{
+  "gate": "Gate-0",
+  "gate_name": "Environment & Data Integrity Audit",
+  "status": "PASSED",
+  "dataset": "CBIS-DDSM",
+  "dicom_files_count": ">10649",
+  "patient_cohort": {
+    "train_patients": 691,
+    "test_patients": 201
+  },
+  "verified_dependencies": {
+    "ripser": "0.6.15",
+    "persim": "0.3.8",
+    "gudhi": "3.13.0"
+  },
+  "external_benchmark": {
+    "inbreast_ph_only_crops": 132,
+    "inbreast_ph_only_auc": 0.6164,
+    "inbreast_ph_only_ci_95": [
+      0.5055,
+      0.7219
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "gate": "Gate-2",
+  "gate_name": "Topological Extraction & Stability Audit",
+  "status": "PASSED",
+  "filtration": "Sublevel intensity filtration",
+  "homology_dimensions": [
+    "H0",
+    "H1"
+  ],
+  "vectorization": "Topological summary statistics and persistence features"
+}
